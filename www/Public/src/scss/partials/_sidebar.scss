@@ -1,0 +1,21 @@
+.pa-sidebar {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.pa-categories {
+    background-color: $pa-pink;
+    padding: 25px;
+    margin-top: 20px;
+    border-radius: 7px;
+
+    ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    ul:last-of-type {
+        margin-left: 50px;
+    }
+}

@@ -1,0 +1,16 @@
+
+/:
+  controller: FormController
+  action: checkAction
+
+/activation-compte:
+  controller: UserController
+  action: activateAccount
+  
+/logout:
+  controller: UserController
+  action: logout
+
+/users:
+  controller: UserController
+  action: showUsers

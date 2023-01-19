@@ -1,0 +1,38 @@
+input {
+    width: 100%;
+    padding: 5px 5px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: $pa-pink;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+
+form p {
+    margin-right: 15px;
+}
+
+.forms {
+    display: flex;
+    .line {
+        border: 1px solid black;
+        margin-left: 160px;
+    }
+
+    .login-form {
+        margin-left: 180px;
+    }
+}

@@ -1,0 +1,45 @@
+.pa-table {
+    border-collapse: collapse;
+    min-width: 400px;
+    box-shadow: 0 5px 50px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+    border: 2px solid #ddd;
+    width: 100%;
+}
+
+thead tr {
+    background-color: $pa-night-blue;
+    color: $pa-white;
+    text-align: left;
+}
+
+th,
+td {
+    padding: 15px 20px;
+}
+
+tbody tr,
+td,
+th {
+    border: 1px solid #ddd !important;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f3f3f3 !important;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: $pa-white !important;
+}
+
+tbody tr:last-of-type {
+    border-bottom: 2px solid $pa-night-blue;
+}
+
+select {
+    background-color: $pa-white !important;
+}
+
+input[type=search] {
+    background-color: $pa-white !important;
+}
